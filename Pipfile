@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+torch = "==0.3.1"
+fastai = "==0.7.0"
+torchtext = "==0.2.0"
+spacy = "*"
+pyknon = "*"
+music21 = "*"
+jupyterlab = "*"
+
+[requires]
+python_version = "3.6"
